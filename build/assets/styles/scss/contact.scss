@@ -1,0 +1,172 @@
+
+// All styles for Contact
+
+#contactSection{
+    padding: 250px 0px 200px 0px;
+    @media (max-width: 480px){
+        padding: 100px 0;
+    }
+    @media (min-width: 2000px){
+        padding: 400px 0px 350px 0px;
+    }
+    .succes-message{
+      text-align: center;
+      padding-top: 50px;
+      i{
+        color: #285BD4;
+        font-size: 2.5em;
+      }
+      h1{
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 2em;
+      }
+      p{
+        color: #888 !important;
+      }
+    }
+    .contact-left{
+        @media (max-width: 992px){
+            margin-bottom: 100px;
+        }
+        h2{
+            margin-bottom: 100px;
+            line-height: 1.6;
+            @media (max-width: 992px){
+                margin-bottom: 50px;
+            }
+        }
+        h5{
+            color: #888;
+            margin-bottom: 25px;
+            @media(max-width: 576px){
+                margin-top: 30px;
+            }
+        }
+        ul{
+            margin-bottom: 100px;
+            @media(max-width: 576px){
+                margin-bottom: 30px;
+            }
+        }
+        .footer-menu{
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline-block;
+                    font-size: .85em;
+                    font-weight: 400;
+                    margin-right: 30px;
+                    a{
+                        color: #aaa;
+                        &:after{
+                            width: 0;
+                            left: auto;
+                            right: 0;
+                            transition: .25s cubic-bezier(.75,.25,.25,.75);
+                        }
+                        &:hover{
+                            color: #fff;
+                            transition: .25s cubic-bezier(.75,.25,.25,.75);
+                            &:after{
+                                width: 100%;
+                                left: 0;
+                                right: auto;
+                                transition: .25s cubic-bezier(.75,.25,.25,.75);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .copyright{
+            @media (max-width: 1199px){
+                margin-top: 30px;
+            }
+            p{
+                display: inline-block;
+                font-size: .9em;
+                font-weight: 300;
+                line-height: 2;
+                color: #b6b6b6;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .contact-right{
+        input{
+            width: 100%;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #333;
+            padding: 0 0 10px 0;
+            margin: 20px 0px 20px 0px;
+            font-weight: 300;
+            font-size: 1em;
+            color: #fff;
+            transition: .25s cubic-bezier(.75,.25,.25,.75);
+            &::placeholder{
+                color: #888;
+                font-weight: 300;
+            }
+            &:focus{
+                outline: 0;
+                border-bottom: 1px solid #285BD4;
+                transition: .25s cubic-bezier(.75,.25,.25,.75);
+            }
+        }
+        textarea{
+            width: 100%;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #333;
+            padding: 0 0 10px 0;
+            margin: 20px 0px 20px 0px;
+            font-weight: 300;
+            min-height: 145px;
+            font-size: 1em;
+            color: #fff;
+            transition: .25s cubic-bezier(.75,.25,.25,.75);
+            &::placeholder{
+                color: #888;
+                font-weight: 300;
+            }
+            &:focus{
+                outline: 0;
+                border-bottom: 1px solid #285BD4;
+                transition: .25s cubic-bezier(.75,.25,.25,.75);
+            }
+        }
+        button{
+            padding: 10px 20px;
+            margin: 30px 0 0 0;
+            border: 0;
+            font-weight: 300;
+            font-size: .9em;
+            color: #fff;
+            text-align: left;
+            transition: .25s cubic-bezier(.75,.25,.25,.75);
+            position: relative;
+            border: 1px solid #285BD4;
+            background: transparent;
+            display: inline-block;
+            width: auto;
+            &:hover{
+                background: #285BD4;
+                transition: .25s cubic-bezier(.75,.25,.25,.75);
+            }
+            &:focus{
+                outline: 0;
+                text-decoration: none;
+            }
+        }
+        p{
+          color: #ea3c3c;
+          font-size: .9em;
+          font-weight: 300;
+          margin: -5px 0px 10px 0px
+        }
+    }
+}

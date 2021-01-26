@@ -1,0 +1,40 @@
+
+// All style for Hero Component
+
+#heroSection{
+    height: 100vh;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    background: #0c0c0c;
+    position: relative;
+    background-size: cover;
+        h6{
+        color: #888;
+        margin-bottom: 40px;
+        @media (max-width: 768px){
+            margin-bottom: 25px;
+        }
+    }
+    h1{
+        line-height: 1.6;
+        margin-bottom: 0px;
+        &.big-title{
+            font-size: 3em;
+            @media(max-width: 1400px){
+                font-size: 2.5em;
+            }
+            @media (max-width: 768px){
+                font-size: 2em;
+                padding-right: 0px;
+            }
+            @media (max-width: 480px){
+                font-size: 1.5em;
+                line-height: 2;
+            }
+        }
+    }
+    span{
+        text-transform: uppercase;
+    }
+}

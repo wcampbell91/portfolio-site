@@ -1,0 +1,44 @@
+
+// All styles for 404 Page
+
+.page-404{
+    h1{
+        input{
+            font-size: .8em;
+        }
+        &.big-title{
+            margin-bottom: 50px !important;
+        }
+    }
+    a{
+        padding: 10px 20px;
+        margin: 30px 0 0 0;
+        border: 0;
+        font-weight: 300;
+        font-size: .9em;
+        color: #fff;
+        text-align: left;
+        transition: .25s cubic-bezier(.75,.25,.25,.75);
+        position: relative;
+        border: 1px solid #285BD4;
+        background: transparent;
+        display: inline-block;
+        width: auto;
+        &:after{
+          display: none;
+        }
+        &:hover{
+          background: #285BD4;
+          transition: .25s cubic-bezier(.75,.25,.25,.75);
+        }
+        &:focus{
+            outline: 0;
+            text-decoration: none;
+        }
+    }
+  }
+  .redirect{
+    #footerSection{
+      background: #050505;
+    }
+  }

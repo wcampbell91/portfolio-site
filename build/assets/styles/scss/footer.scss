@@ -1,0 +1,124 @@
+
+// All styles for Footer
+
+#footerSection{
+    padding: 200px 0px;
+    background: #0c0c0c;
+    position: relative;
+    @media (max-width: 480px){
+        padding: 100px 0;
+    }
+    @media (min-width: 2000px){
+        padding: 400px 0px;
+    }
+    .footer-title{
+        margin-bottom: 125px;
+        @media (max-width: 1200px){
+            margin-bottom: 35px;
+        }
+        h2{
+            line-height: 1.6;
+        }
+    }
+    .footer-project{
+        margin-bottom: 125px;
+        padding-bottom: 23px;
+        display: flex;
+        align-items: flex-end;
+        @media (max-width: 1440px){
+            padding-bottom: 25px;
+        }
+        @media (max-width: 1200px){
+            margin-bottom: 75px;
+            padding-bottom: 0px;
+        }
+        @media (max-width: 768px){
+            margin-bottom: 125px;
+        }
+        a{
+            color: #aaa;
+            font-weight: 400;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    .contact-box{
+        @media (max-width: 768px){
+            margin-bottom: 50px;
+        }
+        h5{
+            color: #888;
+            margin-bottom: 25px;
+        }
+        ul{
+            li{
+                line-height: 2.4;
+            }
+        }
+        &.proceed-box{
+            padding-right: 60px;
+        }
+        &.contact-mail{
+            @media (max-width: 1200px){
+                order: 1;
+            }
+        }
+        &.contact-address{
+            @media (max-width: 1200px){
+                order: 2;
+            }
+        }
+    }
+    .footer-menu{
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline-block;
+                font-size: .85em;
+                font-weight: 400;
+                margin-right: 30px;
+                a{
+                    color: #aaa;
+                    &:after{
+                        width: 0;
+                        left: auto;
+                        right: 0;
+                        transition: .25s cubic-bezier(.75,.25,.25,.75);
+                    }
+                    &:hover{
+                        color: #fff;
+                        transition: .25s cubic-bezier(.75,.25,.25,.75);
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                            transition: .25s cubic-bezier(.75,.25,.25,.75);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-offset{
+        @media (max-width: 1200px){
+            display: none;
+        }
+    }
+    .copyright{
+        @media (max-width: 1200px){
+            order: 3;
+            margin-top: 75px;
+        }
+        p{
+            display: inline-block;
+            font-size: .9em;
+            font-weight: 300;
+            line-height: 2;
+            color: #b6b6b6;
+            margin-bottom: 50px;
+        }
+    }
+}
