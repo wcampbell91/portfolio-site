@@ -1,0 +1,59 @@
+
+/* 
+   TABLE OF CONTENTS
+   |
+   |__ Fonts
+   |__ General Styling
+   |__ Header
+   |__ Home
+   |   |__ Hero
+   |   |__ Works
+   |__ Single Work
+   |   |__ Work Hero
+   |   |__ Work Description
+   |   |__ Work Gallery
+   |   |__ Work Next
+   |__ About
+   |   |__ Hero
+   |   |__ Story
+   |   |__ Team
+   |   |__ Services
+   |__ News
+   |__ Single News
+   |__ Contact
+   |__ Footer
+   |__ 404
+*/
+
+/***** FONTS *****/
+@import 'scss/fonts.scss';
+
+/***** GENERAL *****/
+@import 'scss/general.scss';
+
+/***** HEADER *****/
+@import 'scss/header.scss';
+
+/***** HOME *****/
+@import 'scss/home.scss';
+
+/***** SINGLE WORK *****/
+@import 'scss/single-work.scss';
+
+/***** ABOUT *****/
+@import 'scss/about.scss';
+
+/***** NEWS *****/
+@import 'scss/news.scss';
+
+/***** SINGLE NEWS *****/
+@import 'scss/single-news.scss';
+
+/***** CONTACT *****/
+@import 'scss/contact.scss';
+
+/***** FOOTER *****/
+@import 'scss/footer.scss';
+
+/***** 404 PAGE *****/
+@import 'scss/404.scss';

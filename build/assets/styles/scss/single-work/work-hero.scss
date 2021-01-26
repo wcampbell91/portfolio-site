@@ -1,0 +1,16 @@
+
+// All styles for Work Details Page Hero
+
+.single-project-hero{
+    height: 100vh !important;
+    background-size: cover !important;
+    background-position: 50% !important;
+    position: relative;
+    .dark-bg{
+        background: #000;
+        opacity: .8;
+    }
+    h6{
+      text-transform: capitalize;
+    }
+}
