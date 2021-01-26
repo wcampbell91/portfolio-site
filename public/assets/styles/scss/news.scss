@@ -1,0 +1,99 @@
+
+// All styles for News Page
+
+#newsSection{
+    padding: 250px 0 100px 0;
+    @media (max-width: 480px){
+        padding: 100px 0 50px 0px;
+    }
+    @media (min-width: 2000px){
+        padding: 400px 0px 250px 0px;
+    }
+    .blog-post{
+        margin-bottom: 150px;
+        cursor: pointer;
+        @media (max-width: 480px){
+            margin-bottom: 100px;
+        }
+        .blog-date{
+            @media (max-width: 992px){
+                order: 3;
+            }
+            h5{
+                color: #888;
+                margin-top: 37px;
+                transition: .25s cubic-bezier(.75,.25,.25,.75);
+                @media (max-width: 992px){
+                    color: #aaa;
+                }
+                @media(min-width: 1800px){
+                    margin-top: 50px;
+                }
+                @media (min-width: 2000px){
+                    margin-top: 55px;
+                }
+            }
+        }
+        .blog-title{
+            display: flex;
+            align-items: center;
+            @media (max-width: 992px){
+                order: 2;
+            }
+            h2{
+                line-height: 1.6;
+                padding-right: 25px;
+                color: #888;
+                padding-right: 50px;
+                transition: .25s cubic-bezier(.75,.25,.25,.75);
+                @media (max-width: 992px){
+                    color: #fff;
+                }
+            }
+        }
+        .blog-image{
+            @media (max-width: 992px){
+                order: 1;
+                margin-bottom: 50px;
+            }
+            img{
+                opacity: 0;
+                max-width: 100%;
+                max-height: 100%;
+                position: relative;
+                right: 0px;
+                transition: .35s cubic-bezier(.75,.25,.25,.75);
+                @media (max-width: 992px){
+                    opacity: 1 !important;
+                    right: 0px !important;
+                }
+            }
+        }
+        a{
+            &:after{
+                display: none;
+            }
+        }
+        &.selected{
+            .blog-date{
+                h5{
+                    color: #aaa;
+                    transition: .25s cubic-bezier(.75,.25,.25,.75);
+                }
+            }
+            .blog-title{
+                h2{
+                    color: #fff;
+                    transition: .25s cubic-bezier(.75,.25,.25,.75);
+                }
+            }
+            .blog-image{
+                img{
+                    opacity: 1;
+                    right: -10px;
+                    transition: .35s cubic-bezier(.75,.25,.25,.75);
+                }
+            }
+        }
+    }
+}
