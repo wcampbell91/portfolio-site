@@ -53,7 +53,7 @@ function Home() {
             <Header />
             <Hero background={'/assets/images/background-3.jpeg'}>
                 <h6 ref={el => subtitleAnim = el} className="home-sub-title">Welcome</h6>
-                <h1 ref={el => titleAnim = el} className="big-title">I am Billy Campbell, a junior developer <br /> from Nashville, TN</h1>
+                <h1 ref={el => titleAnim = el} className="big-title">I am Billy Campbell, a full-stack web developer <br /> from Nashville, TN</h1>
             </ Hero>
             <Works />
             <Footer />
