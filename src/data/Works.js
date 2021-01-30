@@ -40,7 +40,7 @@ const Works = [
         name: 'Pinterest',
         category: 'solo',
         fixedCategory: 'solo',
-        image: '/assets/images/pinterest.png',
+        image: '/assets/images/panAm.png',
         background: '/assets/images/pinterest-background.png',
         headline: 'A basic recreation of Pinterest',
         text: ['A recreation of Pinterest using full CRUD capabilites to create boards and pins. For this project I used webpack, vanillaJS, and CSS '],
