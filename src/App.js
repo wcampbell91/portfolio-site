@@ -18,6 +18,10 @@ function App() {
 
   useEffect(() => { setTimeout(()=>{ window.scrollTo(0, 0) }, 500) }, [location])
 
+  App.get('/',(req,res) => {
+    return res.send('Hello');
+    });
+
   return (
     <div>
         <ScrollTop />
