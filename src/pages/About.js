@@ -53,7 +53,7 @@ function About(){
                 className="page-trans">
             </motion.div>
             <Header />
-            <Hero background={'/assets/images/about-background-1.jpg'}>
+            <Hero background={'/assets/images/about-background-1.JPG'}>
                 <h6 ref={el => subtitleAnim = el} className="home-sub-title">Who I am</h6>
                 <h1 ref={el => titleAnim = el} className="big-title">I'm a full-stack web develper graduating<br />from Nashville Software School<br /> in March 2021</h1>
             </ Hero>
