@@ -61,7 +61,6 @@ function About(){
             <Services>
                 <h2 className="big-title">I can't wait to join <br /> your team!</h2>
                 <p>I bring with me a great work ethic and friendly personality anywhere I go.</p>
-                {/* <Link to='/contact'>Contact me</Link> */}
             </Services>
             <Footer />
         </div>
